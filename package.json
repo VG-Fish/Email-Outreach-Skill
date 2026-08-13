@@ -1,6 +1,6 @@
 {
   "name": "@vgopal1290/email-outreach-skill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An approval-gated workflow skill for customer, sponsor, and partnership outreach.",
   "keywords": [
     "skill",
