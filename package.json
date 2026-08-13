@@ -12,7 +12,7 @@
     "power-automate"
   ],
   "files": [
-    "SKILL.md",
+    "skills/",
     "README.md",
     "LICENSE.md"
   ],
@@ -25,5 +25,8 @@
     "url": "git+https://github.com/VG-Fish/Email-Outreach-Skill.git"
   },
   "license": "MIT",
-  "author": "Vishy Gopal"
+  "author": "Vishy Gopal",
+  "publishConfig": {
+    "access": "public"
+  }
 }

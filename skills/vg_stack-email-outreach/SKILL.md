@@ -1,5 +1,5 @@
 ---
-name: email-workflow
+name: email-outreach
 description: "Approval-gated outreach workflow for finding a user-specified number of qualified customers or sponsors, selecting approved email-template directions before recipient research, maintaining synchronized campaign records, and drafting or sending only through a user-selected, limit-aware delivery method."
 ---
 
