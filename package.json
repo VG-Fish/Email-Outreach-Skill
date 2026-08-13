@@ -1,9 +1,13 @@
 {
   "name": "@vgopal1290/email-outreach-skill",
-  "version": "1.0.2",
-  "description": "An approval-gated workflow skill for customer, sponsor, and partnership outreach.",
+  "version": "1.1.0",
+  "description": "An approval-gated workflow skill for customer, sponsor, and partnership outreach. Installs itself into Claude Code and Codex CLI.",
   "keywords": [
     "skill",
+    "agent-skill",
+    "claude-code",
+    "codex",
+    "agents-md",
     "outreach",
     "email",
     "sponsorship",
@@ -11,11 +15,20 @@
     "mail-merge",
     "power-automate"
   ],
+  "type": "module",
+  "bin": {
+    "email-outreach-skill": "bin/email-outreach-skill.mjs"
+  },
   "files": [
+    "bin/",
+    "scripts/",
     "skills/",
     "README.md",
     "LICENSE.md"
   ],
+  "engines": {
+    "node": ">=18"
+  },
   "homepage": "https://github.com/VG-Fish/Email-Outreach-Skill#readme",
   "bugs": {
     "url": "https://github.com/VG-Fish/Email-Outreach-Skill/issues"
@@ -28,5 +41,11 @@
   "author": "Vishy Gopal",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.mjs",
+    "install:skill": "node bin/email-outreach-skill.mjs install",
+    "install:skill:global": "node bin/email-outreach-skill.mjs install --global",
+    "status": "node bin/email-outreach-skill.mjs status"
   }
 }
