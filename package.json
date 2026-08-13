@@ -1,0 +1,29 @@
+{
+  "name": "@vgopal1290/email-outreach-skill",
+  "version": "1.0.0",
+  "description": "An approval-gated workflow skill for customer, sponsor, and partnership outreach.",
+  "keywords": [
+    "skill",
+    "outreach",
+    "email",
+    "sponsorship",
+    "sales",
+    "mail-merge",
+    "power-automate"
+  ],
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "homepage": "https://github.com/VG-Fish/Email-Outreach-Skill#readme",
+  "bugs": {
+    "url": "https://github.com/VG-Fish/Email-Outreach-Skill/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VG-Fish/Email-Outreach-Skill.git"
+  },
+  "license": "MIT",
+  "author": "Vishy Gopal"
+}
